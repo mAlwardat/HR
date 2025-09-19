@@ -167,7 +167,7 @@ st.set_page_config(layout='centered')
 st.title('Plotting HR Diagram - Part 4 of Al-Wardat Method for Analyzing Stellar Systems and Variable Stars')
 st.markdown("""You can use this code to plot stars on the Hertzsprung-Russell (HR) diagram, depicting evolutionary tracks based on the theoretical models of Gerardi (2000a, b). 
 
-This code was developed under the supervision of :rainbow[Prof. Mashhoor Al-Wardat]"[Sharjah University Profile](https://www.sharjah.ac.ae/en/Academics/Faculty-And-Staff/Mashhoor-Ahmad-Salameh)" (malwardat@sharjah.ac.ae) as part of Al-Wardat’s Method for Analyzing Stellar systems and Variable Stars. The Python code was created by :rainbow[Ms. Kaivisna Kandan] (U21103479@sharjah.ac.ae), :rainbow[Ms. Fidha Sirajudheen] (U23102657@sharjah.ac.ae), and :rainbow[Ms. Mariam Ismail] (U22101102@sharjah.ac.ae), with assistance from :rainbow[Mr. Hassan Haboubi] (U23103604@sharjah.ac.ae).
+This code was developed under the supervision of :rainbow[Prof. Mashhoor Al-Wardat]"[Prof. Mashhoor Al-Wardat](https://www.sharjah.ac.ae/en/Academics/Faculty-And-Staff/Mashhoor-Ahmad-Salameh)" (malwardat@sharjah.ac.ae) as part of Al-Wardat’s Method for Analyzing Stellar systems and Variable Stars. The Python code was created by :rainbow[Ms. Kaivisna Kandan] (U21103479@sharjah.ac.ae), :rainbow[Ms. Fidha Sirajudheen] (U23102657@sharjah.ac.ae), and :rainbow[Ms. Mariam Ismail] (U22101102@sharjah.ac.ae), with assistance from :rainbow[Mr. Hassan Haboubi] (U23103604@sharjah.ac.ae).
 
 Enter the Teff and radius of each star, then choose the appropriate metallicity and age to fit the stellar system. The output will be a visualization of luminosity (log(L/L_sun)) versus effective temperature (logT_eff).
 """)
