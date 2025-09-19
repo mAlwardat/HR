@@ -164,10 +164,11 @@ if session_run_time > 900:
 
 st.set_page_config(layout='centered')
 
-st.title('Al-Wardat Method Part 4 Version 01')
-st.markdown("""This is an application created by Ms.Kaivisna Kandan, Ms.Fidha Sirajudheen and Ms.Mariam Ismail under the guidance of Prof. Mashhoor Alwardat 
-and Mr. Hassan Haboubi, which produces HR diagrams of stellar evolutionary tracks based on theoretical models of Gerardi (2000a,b). 
-The output is a visualization of luminosity (`log(L/L0)`) versus effective temperature (`logTeff`).
+st.title('Plotting HR Diagram - Part 4 of Al-Wardat's Method for Analyzing Stellar Systems and Variable Stars')
+st.markdown("""You can use this code to plot stars on the Hertzsprung-Russell (HR) diagram, depicting evolutionary tracks based on the theoretical models of Gerardi (2000a, b). This code was developed under the supervision of Prof. Mashhoor Al-Wardat (malwardat@sharjah.ac.ae) as part of Al-Wardat’s Method for Analyzing Stellar systems and Variable Stars. The Python code was created by Ms. Kaivisna Kandan, Ms. Fidha Sirajudheen, and Ms. Mariam Ismail, with assistance from Mr. Hassan Haboubi.
+
+Enter the Teff and radius of each star, then choose the appropriate metallicity and age to fit the stellar system. The output will be a visualization of luminosity (log(L/L_sun)) versus effective temperature (logT_eff).
+
 """)
 st.subheader('Select Metallicity (Z) and Isochrone Age')
 
